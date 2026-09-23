@@ -1,0 +1,1 @@
+select o.order_id, c.customer_name, p.category, o.sales from orders o join customers c on o.customer_id = c.customer_id join products p on o.product_id = p.product_id
