@@ -1,0 +1,1 @@
+select c.region, sum(o.sales) from customers c left join orders o on c.customer_id = o.customer_id group by c.region

@@ -1,0 +1,1 @@
+select p.category, avg(o.discount) from products p join orders o on p.product_id = o.product_id group by p.category
